@@ -1,0 +1,60 @@
+.panel-default {
+    border-color: #ddd;
+    border-width: 2px;
+    padding: 0px 10px 0px 10px;
+    height: 320px;
+    cursor:pointer;
+}
+
+.panel-default:hover {
+    border-color: #d43f3a;
+}
+
+.panel-default:hover .btn-danger {
+    color: #fff;
+    background-color: #d43f3a;
+    border-color: #ac2925;
+}
+
+.text-center > div {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.name-style {
+    padding-left: 15px;
+    padding-right: 15px;
+    word-wrap: break-word;
+    height: 48px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.discount-style,
+.price-style {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.discount-style {
+    color: #d43f3a;
+}
+
+.price-style {
+    margin-left: 8px;
+}
+
+.btn-danger {
+    margin-top: 12px;
+    color: #d43f3a;
+    background-color: white;
+    border-color: #d43f3a;
+    border-radius: 17px;
+    font-size: 16px;
+}
+
+.arrows {
+    width: 100%;
+    height: auto;
+}
