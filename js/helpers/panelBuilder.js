@@ -1,5 +1,5 @@
 define(["i18n!nls/loc"], function (loc) {
-
+    'use strict';
     return {
         productsTypeHTMLString: function (product, cashback) {
             var str = '';

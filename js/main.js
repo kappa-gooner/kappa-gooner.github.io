@@ -12,6 +12,7 @@ requirejs.config({
 
 requirejs(['require', 'jquery', 'helpers/stringTrimUtil'],
     function   (require, $) {
+        'use strict';
         // This needs to be done because owlCarousel has a nested dependency on jquery
         require(['lib/owl.carousel.2.0.0-beta.3.3.min', 'helpers/panelBuilder'],
             function (owlCarousel, panelBuilder) {

@@ -1,4 +1,5 @@
 define(function () {
+    'use strict';
     (function(){
         String.prototype.trimToLength = function(m) {
             return (this.length > m)
